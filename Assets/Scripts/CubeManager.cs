@@ -26,7 +26,6 @@ public class CubeManager : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log(hit.transform);
                 if(hit.transform == this.transform)
                 {   
                     clickCount++;
